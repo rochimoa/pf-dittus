@@ -1,2 +1,4 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+puma.mp4 filter=lfs diff=lfs merge=lfs -text
+imgs/puma.mp4 filter=lfs diff=lfs merge=lfs -text
