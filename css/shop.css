@@ -201,16 +201,15 @@
         transform: scale(1.1);
     }
 
-    
-    .shopprendas p{
+
+    .shopprendas p {
         margin-top: 10px;
         font-size: 30px;
         color: #7a0909;
     }
-@media (max-width: 768px) {
-    .header {
-        background-color: rgba(150, 103, 103, 0.521);
-        font-size: 19px;
-        padding: 10px;
+
+    @media (max-width: 668px) {
+        .container li {
+            flex-direction: column;
+        }
     }
-}
