@@ -12,6 +12,11 @@ body {
 
 }
 
+.carousel-item {
+    height: 80vh;
+
+
+}
 
 .imagen-home {
     background-color: #7a09096b;
@@ -42,24 +47,14 @@ h1 {
     text-align: center;
 }
 
-.redessociales {
-    display: flex;
-    justify-content: center
-}
-.redessociales a{
-    color: #7a0909;
-}
-.aboutus{
-    font-size: 20px;
-}
-
 .header {
     background-color: rgba(150, 103, 103, 0.521);
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 85px;
+    height: 90px;
     padding: 5px 10%;
+
 }
 
 .header .logo {
@@ -83,23 +78,16 @@ h1 {
     justify-content: center;
 }
 
-
-
-.container {
-    display: flex;
-}
-
-
-
 .header .nav-links {
-    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 
 .header .nav-links li {
     display: inline-block;
     padding: 0 50px;
-
 }
 
 
@@ -134,9 +122,4 @@ h1 {
     background-color: rgb(255, 255, 255);
     color: rgb(196, 14, 14);
     transform: scale(1.1);
-}
-
-
-.aboutus {
-    text-align: center;
 }

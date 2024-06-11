@@ -47,14 +47,14 @@
         text-align: center;
     }
 
-
     .header {
         background-color: rgba(150, 103, 103, 0.521);
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        height: 85px;
+        height: 90px;
         padding: 5px 10%;
+    
     }
 
     .header .logo {
@@ -79,7 +79,9 @@
     }
 
     .header .nav-links {
-        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
     }
 
 
