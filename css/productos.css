@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: rgb(233, 207, 207);
+    background:linear-gradient(#f7f4f4, rgb(248, 197, 234));
     text-align: center;
 
 }
@@ -19,8 +19,10 @@ body {
 }
 
 .imagen-home {
-    background-color: #7a09096b;
-
+    display: flex;
+    float: right;
+    align-items: flex-start;
+    background-color: #f7f4f4
 }
 
 .wrapper-header {
@@ -43,18 +45,18 @@ fieldset {
 }
 
 h1 {
-    color: rgb(136, 7, 7);
+    color: rgb(165, 16, 140);
     text-align: center;
 }
 
+
 .header {
-    background-color: rgba(150, 103, 103, 0.521);
+    background-color: rgb(255, 222, 249);
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 90px;
     padding: 5px 10%;
-
 }
 
 .header .logo {
@@ -80,7 +82,6 @@ h1 {
 
 .header .nav-links {
     display: flex;
-    justify-content: center;
     flex-direction: row;
 }
 
@@ -102,7 +103,7 @@ h1 {
 }
 
 .header .nav-links li a:hover {
-    color: rgb(184, 24, 24);
+    color: rgba(165, 16, 140);
 }
 
 .header .btn button {
@@ -120,6 +121,71 @@ h1 {
 
 .header .btn button:hover {
     background-color: rgb(255, 255, 255);
-    color: rgb(196, 14, 14);
+    color: rgba(165, 16, 140);
     transform: scale(1.1);
+}
+
+.bannerr img{
+    width: 100%;
+}
+
+.inline-block-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.inline-block-container img {
+    width: 300px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.inline-block-container p {
+    padding-top: 0px;
+    font-size: 18px;
+    color: rgba(165, 16, 140);
+}
+
+.shoesimag2 {
+    padding-bottom: 160px;
+}
+
+.imagen2 {
+    padding-top: 20px;
+
+}
+
+.imagen2 p {
+    padding-top: 45px;
+}
+
+.imagen3 p {
+    padding-top: 20px;
+
+}
+
+.imagen5 {
+    padding-top: 20px;
+}
+
+.imagen6 p {
+    padding-top: 25px;
+}
+
+.imagen7 {
+    padding-top: 15px;
+}
+
+.imagen7 p{
+    padding-top: 40px;
+}
+
+.imagen8{
+    padding-top: 15px;
+}
+
+.imagen8 p{
+    padding-top: 60px;
 }

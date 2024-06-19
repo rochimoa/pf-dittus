@@ -7,15 +7,19 @@
 
 
     body {
-        background-color: rgb(238, 204, 204);
+        background:linear-gradient(#f7f4f4, rgb(248, 197, 234));
         text-align: center;
 
     }
 
+    .carousel-item {
+        height: 80vh;
 
+
+    }
 
     .imagen-home {
-        background-color: #7a09096b;
+        background-color: #f7f4f4;
 
     }
 
@@ -39,18 +43,18 @@
     }
 
     h1 {
-        color: rgb(0, 0, 0);
+        color: rgba(165, 16, 140);
         text-align: center;
     }
 
     .header {
-        background-color: rgba(150, 103, 103, 0.521);
+        background-color: rgb(255, 222, 249);
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 100%;
         height: 90px;
         padding: 5px 10%;
+    
     }
 
     .header .logo {
@@ -76,8 +80,8 @@
 
     .header .nav-links {
         display: flex;
+        justify-content: center;
         flex-direction: row;
-        width: 100%;
     }
 
 
@@ -98,7 +102,7 @@
     }
 
     .header .nav-links li a:hover {
-        color: rgb(184, 24, 24);
+        color: rgba(165, 16, 140);
     }
 
     .header .btn button {
@@ -116,37 +120,14 @@
 
     .header .btn button:hover {
         background-color: rgb(255, 255, 255);
-        color: rgb(196, 14, 14);
+        color: rgba(165, 16, 140);
         transform: scale(1.1);
     }
 
-    .nosotras img {
-        float: left;
-        width: 500px;
-        margin: 20px;
 
-    }
-
-    .nosotras p {
-        display: flex;
-        flex-direction: row;
-        color: #a10303;
-        padding-top: 80px;
-        justify-content: space-around;
-        font-size: 20px;
-    }
-    .aboutus {
-        display: flex;
-        justify-content: end;
-        text-align: center;
-        font-size: 20px;
+    .shopprendas p {
+        margin-top: 10px;
+        font-size: 30px;
+        color: rgba(165, 16, 140);
     }
 
-    .redessociales {
-        display: flex;
-        justify-content: center
-    }
-
-    .redessociales a {
-        color: #7a0909;
-    }
