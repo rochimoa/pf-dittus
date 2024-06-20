@@ -1,5 +1,5 @@
 body {
-  background-color: #f7f4f4;
+  background: linear-gradient(rgb(243, 244, 246), rgb(250, 201, 236), rgb(255, 228, 247));
   text-align: center;
   font-size: 100%;
   font: inherit;
@@ -7,6 +7,7 @@ body {
 
 nav {
   display: flex;
+  justify-content: center;
   flex-direction: row;
 }
 nav ul {
@@ -28,7 +29,7 @@ nav ul li a:hover {
   color: rgb(165, 16, 140);
 }
 
-.header {
+header {
   background-color: rgb(255, 222, 249);
   display: flex;
   justify-content: flex-end;
@@ -36,7 +37,7 @@ nav ul li a:hover {
   height: 90px;
   padding: 5px 10%;
 }
-.header img {
+header img {
   display: flex;
   justify-content: flex-start;
   height: 200px;
@@ -45,24 +46,64 @@ nav ul li a:hover {
   cursor: pointer;
   margin-right: auto;
 }
-.header img:hover {
+header img:hover {
   transform: scale(1.3);
 }
-.header button {
-  margin-left: 10px;
+
+.btn button {
+  margin-left: 20px;
   font-weight: 700;
   color: black;
   padding: 9px 15px;
   background: rgb(255, 255, 255);
   border: none;
-  border-radius: 40px;
+  border-radius: 50px;
   cursor: pointer;
   transition: all 0.3 ease 0s;
 }
-.header button:hover {
+.btn button:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(165, 16, 140);
   transform: scale(1.1);
+}
+
+.imagen-home {
+  display: flex;
+  justify-content: center;
+}
+.imagen-home img {
+  padding-top: 0px;
+  width: 100%;
+}
+
+.sale {
+  display: flex;
+  justify-content: center;
+}
+.sale img {
+  width: 1580px;
+}
+
+.prendas {
+  display: flex;
+  justify-content: center;
+}
+
+.inline-block-container {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.inline-block-container img {
+  width: 300px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.inline-block-container p {
+  padding-top: 20px;
+  font-size: 18px;
+  color: rgb(165, 16, 140);
 }
 
 /*# sourceMappingURL=style.css.map */
