@@ -1,0 +1,49 @@
+footer {
+    background-color: rgb(230, 207, 230);
+    padding-top: 50px;
+    font-size: 15px;
+
+    p {
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+    }
+}
+
+h1 {
+    color: rgb(98, 125, 214);
+    padding-top: 140px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+
+    img {
+        width: 70%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-left: 50px;
+
+    ul {
+        list-style: none;
+
+
+        li {
+            display: inline-block;
+            padding: 0 50px;
+            padding-top: 60px;
+
+        }
+
+    }
+
+}

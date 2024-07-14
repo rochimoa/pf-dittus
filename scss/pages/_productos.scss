@@ -1,0 +1,141 @@
+
+h1 {
+    color:  rgb(98, 125, 214);
+    padding-top: 150px;
+    padding-bottom: 80px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 80px;
+    gap: 80px;
+
+    img {
+        width: 70%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .imagen3 img {
+        width: 250px;
+    }
+
+    .imagen2 img {
+        padding-top: 60px;
+        width: 280px;
+    }
+
+    .imagen1 img{
+        width: 300px;
+        padding-top: 90px;
+    }
+
+    .imagen4 img {
+        padding-top: 20px;
+        width: 280px;
+    }
+
+    .imagen5 img {
+
+        width: 280px;
+        padding-top: 120px;
+    }
+
+    .imagen6 img {
+        padding-top: 150px;
+        width: 280px;
+    }
+
+    .imagen8 img {
+        padding-top: 120px;
+        width: 280px;
+    }
+
+    .imagen7 img{
+        width: 320px;
+        padding-top: 145px;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-left: 60px;
+
+    ul {
+        list-style: none;
+
+
+        li {
+            display: inline-block;
+            padding: 0 50px;
+            padding-top: 13px;
+
+
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            a {
+                font-size: 800;
+                color: rgba(165, 16, 140);
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(175, 37, 255);
+                }
+            }
+
+        }
+    }
+
+}
+
+footer {
+    background-color: rgb(230, 207, 230);
+    padding-top: 40px;
+    font-size: 15px;
+
+    p {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+
+    ul {
+        list-style: none;
+
+        i {
+            padding-right: 20px;
+        }
+    }
+
+    li {
+        display: inline-block;
+        padding: 0 50px;
+        padding-top: 60px;
+        padding-bottom: 100px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            font-size: 800;
+            color: rgba(165, 16, 140);
+            text-decoration: none;
+
+            &:hover {
+                color: rgb(175, 37, 255);
+            }
+        }
+
+    }
+
+}

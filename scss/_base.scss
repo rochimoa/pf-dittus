@@ -1,0 +1,39 @@
+$primary-color: rgb(255, 255, 255);
+$font-color: rgb(0, 0, 0);
+$font-size: 15px;
+$color-letras: rgba(165, 16, 140);
+
+
+body {
+    background-color: $primary-color;
+    text-align: center;
+    font: inherit;
+    font-family: "Bebas Neue", sans-serif;
+    color: $font-color;
+    font-size: 18px;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+
+}
+
+h1 {
+    font-size: 25px;
+    color: $color-letras;
+}
+
+h2 {
+    font-size: 25px;
+    color: $color-letras;
+}
+
+h3 {
+    font-size: 25px;
+    color: $color-letras;
+}
+
+
+
+

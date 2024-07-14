@@ -1,14 +1,37 @@
 body {
-  background: linear-gradient(rgb(243, 244, 246), rgb(250, 201, 236), rgb(255, 228, 247));
+  background-color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 100%;
   font: inherit;
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-style: normal;
+}
+
+.wpp {
+  position: fixed;
+  padding-top: 10px;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0a8037;
+  color: rgb(12, 80, 134);
+  border-radius: 80px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+}
+.wpp i {
+  color: rgb(194, 48, 187);
 }
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: row;
+  padding-left: 50px;
 }
 nav ul {
   list-style: none;
@@ -16,30 +39,39 @@ nav ul {
 nav ul li {
   display: inline-block;
   padding: 0 50px;
+  padding-top: 78px;
 }
 nav ul li:hover {
   transform: scale(1.1);
 }
 nav ul li a {
-  font-size: 700;
-  color: black;
+  font-size: 800;
+  color: rgb(165, 16, 140);
   text-decoration: none;
 }
 nav ul li a:hover {
-  color: rgb(165, 16, 140);
+  color: rgb(175, 37, 255);
 }
 
 header {
-  background-color: rgb(255, 222, 249);
+  background-color: rgba(122, 212, 189, 0);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  transition: 0.7s;
   height: 90px;
-  padding: 5px 10%;
+  padding: 30px 10%;
+  z-index: 1000;
 }
 header img {
   display: flex;
-  justify-content: flex-start;
+  position: relative;
+  left: 0px;
+  padding-left: 0px;
+  padding-top: 10px;
   height: 200px;
   width: auto;
   transition: all 0.3s;
@@ -50,29 +82,13 @@ header img:hover {
   transform: scale(1.3);
 }
 
-.btn button {
-  margin-left: 20px;
-  font-weight: 700;
-  color: black;
-  padding: 9px 15px;
-  background: rgb(255, 255, 255);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3 ease 0s;
-}
-.btn button:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(165, 16, 140);
-  transform: scale(1.1);
-}
-
 .imagen-home {
   display: flex;
   justify-content: center;
 }
 .imagen-home img {
   padding-top: 0px;
+  padding-bottom: 50px;
   width: 100%;
 }
 
@@ -81,29 +97,88 @@ header img:hover {
   justify-content: center;
 }
 .sale img {
-  width: 1580px;
+  width: 400px;
+  padding-bottom: 20px;
 }
 
-.prendas {
-  display: flex;
-  justify-content: center;
+.fotosvintage {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.fotosvintage img {
+  width: 500px;
+  margin: 60px;
 }
 
-.inline-block-container {
+.tituloabajo {
   display: flex;
   justify-content: center;
-  gap: 120px;
-}
-.inline-block-container img {
-  width: 300px;
-  height: auto;
-  padding-top: 100px;
+  gap: 70px;
   padding-bottom: 80px;
+  padding-top: 50px;
 }
-.inline-block-container p {
+.tituloabajo h1 {
+  font-size: 25px;
+  color: rgb(165, 16, 140);
+}
+.tituloabajo h2 {
+  font-size: 25px;
+  color: rgb(165, 16, 140);
+}
+.tituloabajo h3 {
+  font-size: 25px;
+  color: rgb(165, 16, 140);
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 60px;
+  padding-bottom: 70px;
+}
+.container img {
+  width: 300px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.container p {
   padding-top: 20px;
   font-size: 18px;
   color: rgb(165, 16, 140);
+}
+
+footer {
+  background-color: rgb(230, 207, 230);
+  padding-top: 50px;
+  font-size: 15px;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul i {
+  padding-right: 20px;
+}
+footer li {
+  display: inline-block;
+  padding: 0 50px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+footer li:hover {
+  transform: scale(1.1);
+}
+footer li a {
+  font-size: 800;
+  color: rgb(165, 16, 140);
+  text-decoration: none;
+}
+footer li a:hover {
+  color: rgb(175, 37, 255);
 }
 
 /*# sourceMappingURL=style.css.map */

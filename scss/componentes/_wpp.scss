@@ -1,0 +1,19 @@
+.wpp {
+    position: fixed;
+    padding-top: 10px;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0a8037;
+    color: rgb(12, 80, 134);
+    border-radius: 80px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+
+    i{
+        color: rgb(194, 48, 187);
+    }
+}

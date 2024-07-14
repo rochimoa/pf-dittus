@@ -1,0 +1,171 @@
+body {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font: inherit;
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-style: normal;
+}
+
+.wpp {
+  position: fixed;
+  padding-top: 10px;
+  width: 60px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0a8037;
+  color: rgb(12, 80, 134);
+  border-radius: 80px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+}
+.wpp i {
+  color: rgb(194, 48, 187);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-left: 55px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 50px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+nav ul li:hover {
+  transform: scale(1.1);
+}
+nav ul li a {
+  font-size: 800;
+  color: rgb(165, 16, 140);
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(175, 37, 255);
+}
+
+header {
+  background-color: rgba(122, 212, 189, 0);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.7s;
+  height: 30px;
+  padding: 30px 10%;
+  z-index: 1000;
+}
+header img {
+  display: flex;
+  position: relative;
+  left: 0px;
+  padding-left: 0px;
+  padding-top: 10px;
+  height: 188px;
+  width: auto;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-right: auto;
+}
+header img:hover {
+  transform: scale(1.3);
+}
+
+h1 {
+  padding-top: 120px;
+  color: rgb(98, 125, 214);
+}
+
+.produc {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 80px;
+  gap: 80px;
+  padding-top: 60px;
+}
+.produc img {
+  width: 70%;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.produc .imagen3 img {
+  width: 250px;
+  padding-top: 125px;
+}
+.produc .imagen2 img {
+  padding-top: 115px;
+  width: 280px;
+}
+.produc .imagen1 img {
+  width: 300px;
+  padding-top: 90px;
+}
+.produc .imagen4 img {
+  padding-top: 80px;
+  width: 380px;
+}
+.produc .imagen5 img {
+  width: 280px;
+  padding-top: 120px;
+}
+.produc .imagen6 img {
+  padding-top: 120px;
+  width: 280px;
+}
+.produc .imagen8 img {
+  padding-top: 100px;
+  width: 300px;
+}
+.produc .imagen7 img {
+  width: 280px;
+  padding-top: 115px;
+}
+
+footer {
+  background-color: rgb(230, 207, 230);
+  padding-top: 50px;
+  font-size: 15px;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul i {
+  padding-right: 20px;
+}
+footer li {
+  display: inline-block;
+  padding: 0 50px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+footer li:hover {
+  transform: scale(1.1);
+}
+footer li a {
+  font-size: 800;
+  color: rgb(165, 16, 140);
+  text-decoration: none;
+}
+footer li a:hover {
+  color: rgb(175, 37, 255);
+}
+
+/*# sourceMappingURL=accesorios.css.map */
