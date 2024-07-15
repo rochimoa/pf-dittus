@@ -159,7 +159,7 @@ nav ul li a:hover {
   padding-bottom: 30px;
 }
 .fotosvintage img {
-  width: 400px;
+  width: 40px;
   margin: 60px;
 }
 
@@ -563,6 +563,12 @@ h1 {
   padding-bottom: 80px;
   gap: 80px;
   padding-top: 60px;
+}
+.produc {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 .produc img {
   width: 70%;

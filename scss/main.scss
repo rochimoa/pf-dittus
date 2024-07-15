@@ -1,16 +1,17 @@
 @import"./base";
 
-@import"./componentes/footer";
-@import"./componentes/header";
-@import"./componentes/media";
-@import"./componentes/nav";
-@import"./componentes/wpp";
-
 @import"./pages/index";
 @import"./pages/collection";
 @import"./pages/calzado";
 @import"./pages/productos";
 @import"./pages/talleres";
 @import"./pages/accesorios";
+
+@import"./componentes/footer";
+@import"./componentes/header";
+@import"./componentes/media";
+@import"./componentes/nav";
+@import"./componentes/wpp";
+
 
 
